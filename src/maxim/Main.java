@@ -14,15 +14,15 @@ public class Main {
         else
             monthBiggerDay = false;
         System.out.println ("Месяц моего рождения больше даты рождения:"+" " +  monthBiggerDay);
-        char ch1, ch2, ch3, ch4, ch5, ch6;
+        char[] arr = new char[6];
 
-        ch1 = 'М';
-        ch2 = 'А';
-        ch3 = 'К';
-        ch4 = 'С';
-        ch5 = 'И';
-        ch6 = 'М';
-        System.out.println("Массив с моим именем: " + ch1 + ch2 + ch3 + ch4 + ch5 + ch6);
+        arr[0] = 'М';
+        arr[1] = 'а';
+        arr[2] = 'к';
+        arr[3] = 'с';
+        arr[4] = 'и';
+        arr[5] = 'м';
+        System.out.println("Массив с моим именем: " + arr[0] + arr[1] + arr[2] + arr[3] + arr[4] + arr[5]);
         double myAge = 20;
         double partYear = 10.0 / 12.0;
         double sum1 = myAge + partYear;
